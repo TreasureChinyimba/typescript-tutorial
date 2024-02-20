@@ -1,5 +1,5 @@
 "use strict";
 let numList;
-numList = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-let result = numList.filter((num) => num > 3);
+numList = [1, 2, 3, 4, 5];
+let result = numList.reduce((acc, num) => num + acc);
 console.log(result);
