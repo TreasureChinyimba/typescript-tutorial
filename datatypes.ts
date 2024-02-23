@@ -6,7 +6,7 @@ let result = numList.reduce((acc, num)=> num+acc)
 console.log(result);
 
 
-enum color {
+const enum color {
     red,
     blue,
     green
